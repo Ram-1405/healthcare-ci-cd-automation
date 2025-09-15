@@ -402,34 +402,4 @@ kubectl port-forward svc/monitoring-grafana 3000:80 -n monitoring
 
 ---
 
-## 8. README checklist (what to include in repo README)
-
-* Project overview & badges (build status, Docker pulls)
-* Architecture diagram (same mermaid or PNG in `/docs`)
-* Prerequisites (AWS account, DockerHub account, Jenkins server access)
-* Quickstart (how to run locally & CI flow)
-* Folder structure
-* How to reproduce full pipeline (commands)
-* Credentials / secrets handling notes
-* Troubleshooting & logs
-
----
-
-## 9. Next steps & suggestions
-
-* Add a `demo/` folder with a short GIF or recorded demo showing pipeline running.
-* Add `CHANGELOG.md` and release tags when you hit stable milestones.
-* Consider using GitHub Actions for small projects (simpler) but keep Jenkins for your course/mentor requirements.
-* Optionally provide a `Makefile` or simple scripts to reproduce local setup faster.
-
----
-
-**If you want:** I can also:
-
-* Export the `README.md` from this doc (ready to copy/paste),
-* Create the actual `Jenkinsfile`, `Terraform` and `Ansible` files in the repo format and push them to a new GitHub repo (I will prepare content for you to paste), or
-* Produce a PNG of the architecture diagram.
-
----
-
 *End of guide.*
